@@ -1,20 +1,21 @@
-# Virtual environment — do not commit
+# Virtual environment
 .venv/
-venv/
-env/
 
 # Python cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Environment variables
-.env
-
-# Jupyter
 .ipynb_checkpoints/
 
-# OS files
+# Secrets and credentials
+.env
+*.key
+*.pem
+
+# Data files
+*.csv
+*.parquet
+*.xlsx
+data/raw/
+
+# OS artifacts
 .DS_Store
 Thumbs.db
