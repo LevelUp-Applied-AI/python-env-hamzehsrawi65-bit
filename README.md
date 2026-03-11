@@ -1,29 +1,26 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/rZxQuJoV)
-# AI.SPIRE Pre-Work — Python Toolchain
+# Collaborative Python Environment Setup
 
-This repository is your workspace for Pre-Work Days 3–5.
+## Team Members
+- Hamzeh Khaled Awad
+- Omar Haddad
+- Lina Salem
 
-| Day | PR | Topic |
-|-----|-----|-------|
-| 3 | PR-2 | Python venv Bootstrap + Sanity Script |
-| 4 | PR-3 | Notebook vs Script: Same Output Two Ways |
-| 5 | PR-4 | Compute & Debug Evidence Pack |
+## Project Overview
+This project prepares a clean and reproducible Python development environment for collaborative work. It is designed so a new contributor can clone the repository, install dependencies, validate the environment, and begin working without additional setup questions.
 
-## Setup
+The repository provides a shared structure for source code, notebooks, tests, scripts, and documentation, making it easier for teammates to contribute consistently.
 
-Install Python 3.11 from [python.org](https://python.org), then:
+## Data Sources
+This project may use local data files for analysis and experimentation.
+
+Data is not tracked in this repository. See the setup instructions below for how to create the environment and where data files should be placed before running analysis.
+
+Example data location:
+`data/raw/admissions.csv`
+
+## Setup Instructions
+Clone the repository and enter the project folder:
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate        # macOS / Linux
-# source .venv/Scripts/activate  # Windows (Git Bash)
-python -m pip install --upgrade pip
-python -m pip install -r requirements-prework.txt
-```
-
-## Submitting PRs
-
-1. Create a branch named for the PR task (e.g., `pr-02-python-env`)
-2. Complete the work
-3. Push the branch and open a PR from your branch to `main`
-4. Submit the PR URL in TalentLMS
+git clone <repo-url>
+cd python-env-hamzehsrawi65-bit
